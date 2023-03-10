@@ -1,4 +1,4 @@
-import fetcher from '@/lib/fetcher'
+import fetcher from '@/lib/Fetcher'
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'

@@ -4,7 +4,7 @@ import Author from "./_child/Author"
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/css';
 import SwiperCore, { Autoplay } from "swiper";
-import fetcher from "@/lib/fetcher";
+import fetcher from "@/lib/Fetcher";
 
 const Section1 = () => {
 

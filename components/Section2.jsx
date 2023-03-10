@@ -1,7 +1,7 @@
 import Image from "next/image"
 import Link from "next/link"
 import Author from "./_child/Author"
-import fetcher from "@/lib/fetcher"
+import fetcher from "@/lib/Fetcher"
 const Section2 = () => {
     
     const{data,isLoading,isError}=fetcher('api/posts')

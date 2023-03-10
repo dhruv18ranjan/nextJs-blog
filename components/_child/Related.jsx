@@ -1,7 +1,7 @@
 import Link from "next/link"
 import Image from "next/image"
 import Author from "./author"
-import fetcher from "@/lib/fetcher"
+import fetcher from "@/lib/Fetcher"
 
 export default function Related() {
     const{data,isLoading,isError}=fetcher('api/trending')
